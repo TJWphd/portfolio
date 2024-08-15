@@ -1,0 +1,53 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: cadetblue;
+}
+
+
+title {
+    font-weight: bolder;
+}
+
+li {
+    display: inline;
+    text-align: right;
+}
+
+.subtitle {
+    font-weight: bolder;
+    font-size: large;
+    text-align: right;
+}
+
+.hero {
+    display: block;
+}
+
+main {
+
+}
+
+.text {
+
+}
+
+.container {
+
+}
+
+#about-me {
+
+}
+
+img {
+    border: 10px solid cadetblue;
+    margin: 20px;
+    padding: 0px;
+}
+
+.contactlinks {
+    font-size: small;
+}

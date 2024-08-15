@@ -1,41 +1,60 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-    <header>
-        display: flexbox
-        <ul>
-            <a href="about-me" class="navlinks"></a>
-            <a href="work" class="navlinks"></a>
-            <a href="contact me" class="navlinks"></a>
-            <a href="resume" class="navlinks"></a>
-        </ul>
-    </header>
-    <hero>
-        <picture><img src="" alt=""></picture>
-        <subtitle>Psychology and Technology</subtitle>
-    </hero>
+    <head>
+        <meta charset="UTF-8">
+        
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>Portfolio - TJWphd</title>
+    </head>
 
-    <main>
-        <article>
-            <about-me>
-
-            </about-me>
-        </article>
-        <article>
-            <work>
-
-            </work>
-        </article>
-        <article>
-            <contact-me>
-
-            </contact-me>
-        </article>
-        <article>
-            <resume>
-                
-            </resume>
-        </article>
-    </main>
-
+    <body>
+        <header>
+          <h2>TJWphd</h2>
+          ,<img src="./assets/images/portfolio-hero.jpeg" alt="circuitboard">
+          <nav>
+            <ul>
+                <li><a href="about-me" class="navlinks">About Me</a></li>
+                <li><a href="work" class="navlinks">Work</a></li>
+                <li><a href="contact me" class="navlinks">Contact Me</a></li>
+                <li><a href="resume" class="navlinks">Resume</a></li>
+            </ul>
+           </nav>
+        </header>  
+        <hero>
+            <img src="" alt=""></hero>
+            <subtitle class="subtitle">Psychology and Information Technology</subtitle>
+        </hero>
+    
+        <main>
+            <article class="text" id="about-me">
+                <h2>About Me</h2>
+                <p id="bio-para-1">Thomas J. White is a scientifically trained psychologist with expertise in workforce management and program development. He has cultivated broad experience across the spectrum of psychological/mental health care provision and has published in the fields of psychology, psychiatry, epidemiology, and public health.</p>
+                <p id="bio-para-2">His current interests are drawn to computer science and web technology - increasingly large segments of our lives.</p>
+                <p id="bio-para-3">Thomas currently lives in San Francisco.</p>
+            </article>
+            <article class="container"></article>
+                <h2>Work</h2>
+                <section>
+                   <ul>
+                    <img src="./assets/images/work-image-1.jpg" alt="work item 1"/>
+                    <img src="./assets/images/work-image-2.jpeg" alt="work item 2"/>
+                    <img src="./assets/images/work-image-3.jpeg" alt="work item 3"/>
+                    <img src="./assets/images/work-image-4.jpg" alt="work item 4"/>
+                    <img src="./assets/images/work-image-5.jpg" alt="work item 5"/>
+                   </ul>
+                </section>
+            </article>
+            <article class="container" id="contact"></article>
+                <h2>Contact</h2>
+                <ul>
+                    <li class="contactlinks"><a href="#">tjwhitephd@gmail.com</a></li>
+                    <li class="contactlinks"><a href="#">https://github.com/TJWphd</a></li>
+                    <li class="contactlinks"><a href="#">https://www.linkedin.com/in/thomas-white-phd/</a></li>
+                </ul>
+            </article>
+        </main>
+    
+    </body>
+    
 </html>
