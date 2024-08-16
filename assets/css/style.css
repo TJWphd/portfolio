@@ -2,13 +2,12 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-header {
-    background-color: cadetblue;
-}
-
-
-title {
-    font-weight: bolder;
+.portfolio-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: cadetblue;
+    color: black;
 }
 
 li {
@@ -27,22 +26,27 @@ li {
 }
 
 main {
-
+    display: flex;
+    flex-wrap: wrap;
 }
+
+
 
 .text {
 
 }
 
 .container {
-
+    display: flexbox;
 }
 
 #about-me {
 
 }
 
-img {
+.card img {
+    max-width: 1200px;
+    min-width: 300px;
     border: 10px solid cadetblue;
     margin: 20px;
     padding: 0px;
@@ -50,4 +54,5 @@ img {
 
 .contactlinks {
     font-size: small;
+    padding: 12px;
 }
