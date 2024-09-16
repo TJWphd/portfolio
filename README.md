@@ -7,3 +7,10 @@ As with my last homework project (Semantic Refactor), I went fairly methodically
 I wrote the HTML and CSS files from scratch, using class activities as a roadmap and turning to web forums (e.g. W3, Medium) to help with questions along the way.
 
 I did not collaborate with classmates on this assignment.
+
+<!-- // semantic elements can be called without . or #
+// hashtag is for id, period is for class
+// images called differently in HTML vs CSS
+// command forward slash to comment out in Mac
+// HTML tags are only in HTML duh, CSS uses classes -->
+<!-- can open w live server now, right click and select -->

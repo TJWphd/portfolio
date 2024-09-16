@@ -3,28 +3,25 @@
 
     <head>
         <meta charset="UTF-8">
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./assets/css/style.css">
         <title>Portfolio - TJWphd</title>
     </head>
+
     <body>
-        <header class="portfolio-header">
+        <header>
           <h2>Thomas J. White, PhD</h2>
-          <img src="./assets/images/portfolio-headshot.jpg" alt="TJW headshot">
           <nav>
-            <ul>
-                <li><a href="#about-me" class="navlinks">About Me</a></li>
-                <li><a href="#work" class="navlinks">Work</a></li>
-                <li><a href="#contact-me" class="navlinks">Contact Me</a></li>
-                <li><a href="./assets/documents/TJW-portfolio-resume.pdf" class="resume">Resume</a></li>
-            </ul>
+            <a href="#about-me" class="navlinks">About Me</a>
+            <a href="#work" class="navlinks">Work</a>
+            <a href="#contact-me" class="navlinks">Contact Me</a>
+            <a href="./assets/documents/TJW-portfolio-resume.pdf" class="resume">Resume</a>
            </nav>
         </header>  
-        <hero>
-            <img src="" alt=""></hero>
-            <img src="./assets/images/portfolio-hero.png" alt="circuitboard">
-            <subtitle class="subtitle">Psychology and Information Technology</subtitle>
-        </hero>
+        <div class="hero">
+            <img src="./assets/images/portfolio-hero.png" alt="circuitboard">  
+            <div class="subtitle">Psychology and Information Technology</div>
+        </div>
     
         <main>
             <article class="text" id="about-me">
@@ -33,7 +30,8 @@
                 <p id="bio-para-2">His current interests are drawn to computer science and web technology - increasingly large segments of our lives.</p>
                 <p id="bio-para-3">Thomas currently lives in San Francisco.</p>
             </article>
-            <article class="container" id="work"></article>
+
+            <article class="container" id="work">
                 <h2>Work</h2>
                 <section class="card">
                    <header>Semantic Refactor</header>
@@ -54,15 +52,16 @@
                     <header>Coming Soon</header>
                     <img src="./assets/images/work-image-5.jpeg" alt="work item 5"/>
                 </section>
-            </article>
-            <article class="container" id="contact-me"></article>
+                </section>
+
+            <section class="container" id="contact-me"></section>
                 <h2>Contact</h2>
                 <ul>
                     <li class="contactlinks"><a href="#">tjwhitephd@gmail.com</a></li>
                     <li class="contactlinks"><a href="#">https://github.com/TJWphd</a></li>
                     <li class="contactlinks"><a href="#">https://www.linkedin.com/in/thomas-white-phd/</a></li>
                 </ul>
-            </article>
+            </section>
         </main>
     
     </body>
