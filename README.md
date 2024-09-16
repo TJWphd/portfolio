@@ -1,16 +1,25 @@
 # portfolio: TJWphd
 
-This portfolio was created as a homework project for UCB Fullstack Coding Bootcamp.
+## description
 
-As with my last homework project (Semantic Refactor), I went fairly methodically through the class activities to see how to code HTML and CSS to display the information as I wanted it, using the mockup animation as a guide.
+My portfolio highlights my professional experiences attractively in one place. The portfolio is first and foremost the most important part of itself.
 
-I wrote the HTML and CSS files from scratch, using class activities as a roadmap and turning to web forums (e.g. W3, Medium) to help with questions along the way.
+My portfolio includes a short biography and links to highlighted work from my career-to-date as a psychologist and also my recent achievements in front-end web development. As my programming skills develop, I will include back-end development and full-stack development projects in my portfolio.
 
-I did not collaborate with classmates on this assignment.
+This deployment version (2.0) enhances this README with improved sections, descriptions, credits and acknowledgements; HTML links section now attach correctly to deployed projects; and CSS code is updated with comments.
 
-<!-- // semantic elements can be called without . or #
-// hashtag is for id, period is for class
-// images called differently in HTML vs CSS
-// command forward slash to comment out in Mac
-// HTML tags are only in HTML duh, CSS uses classes -->
-<!-- can open w live server now, right click and select -->
+## deployment link and screenshot
+
+Deployment Link: ...
+Screenshot: ...
+
+## credits and acknowledgements
+
+The edX Full-Stack Blog: https://coding-boot-camp.github.io/full-stack/
+Mozilla Development Network: https://developer.mozilla.org/en-US/
+Stack Exchange: https://stackexchange.com/
+w3 Schools: https://www.w3schools.com/
+Flexbox Froggy: https://flexboxfroggy.com/
+
+John Young, Nick Gambino, Zac Warner, Ntombifuthi Motaung:
+Educational Team at edX/UC Berkeley Full Stack Bootcamp

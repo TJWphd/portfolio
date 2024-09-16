@@ -3,6 +3,13 @@
     "Lucida Sans", Arial, sans-serif;
 }
 
+/* semantic elements can be called without . or #
+hashtag is for id, period is for class
+images called differently in HTML vs CSS
+command forward slash to comment out in Mac
+HTML tags are only in HTML duh, CSS uses classes -->
+can open w live server now, right click and select --> */
+
 body {
   margin: 0;
   padding: 0;
