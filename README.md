@@ -8,10 +8,10 @@ My portfolio includes a short biography and links to highlighted work from my ca
 
 This deployment version (2.0) enhances this README with improved sections, descriptions, credits and acknowledgements; HTML links section now attach correctly to deployed projects; and CSS code is updated with comments.
 
-## deployment link and screenshot
+## usage
 
-Deployment Link: ...
 Screenshot: ...
+Deployment Link: ...
 
 ## credits and acknowledgements
 
