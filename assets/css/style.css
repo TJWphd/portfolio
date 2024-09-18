@@ -3,12 +3,7 @@
     "Lucida Sans", Arial, sans-serif;
 }
 
-/* semantic elements can be called without . or #
-hashtag is for id, period is for class
-images called differently in HTML vs CSS
-command forward slash to comment out in Mac
-HTML tags are only in HTML duh, CSS uses classes -->
-can open w live server now, right click and select --> */
+/* semantic elements can be called without . or # */
 
 body {
   margin: 0;
@@ -28,6 +23,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  align-items: center;
 }
 
 /* this targets a within nav */
@@ -37,6 +33,9 @@ nav a {
   text-align: right;
   padding: 5px 10px;
 }
+
+/* hashtag is for id, period is for class */
+/* images called differently in HTML vs CSS */
 
 .img1 {
   background-image: url("./assets/images/portfolio-headshot.jpg");
@@ -51,7 +50,7 @@ nav a {
 .hero .subtitle {
   font-weight: bolder;
   font-size: large;
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   z-index: 1;
@@ -76,8 +75,15 @@ main {
 #about-me {
 }
 
-.card {
-  max-width: 40%;
+.workLead {
+  max-width: 100%;
+  border: 10px solid cadetblue;
+  margin: 20px;
+  padding: 0px;
+}
+
+.workFollow {
+  max-width: 50%;
   border: 10px solid cadetblue;
   margin: 20px;
   padding: 0px;
