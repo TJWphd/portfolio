@@ -34,11 +34,14 @@ nav a {
 }
 
 .hero {
-  display: flex;
+  /* display: flex;
   margin: 0;
   padding: 0;
-  width: 100%;
-  z-index: 0;
+  z-index: 0; */
+  /* height: 80px; */
+  margin-bottom: 25px;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero .subtitle {
@@ -60,9 +63,8 @@ nav a {
   float: right;
 }
 
-.container {
-  /* display: flex;
-  flex-direction: row; */
+.w3-container {
+  display: block;
 }
 
 #about-me {
