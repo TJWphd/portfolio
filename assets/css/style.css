@@ -3,8 +3,6 @@
     "Lucida Sans", Arial, sans-serif;
 }
 
-/* semantic elements can be called without . or # */
-
 body {
   margin: 0;
   padding: 0;
@@ -17,6 +15,7 @@ header {
   justify-content: space-between;
   background: cadetblue;
   color: black;
+  max-width: 100%;
 }
 
 nav {
@@ -34,17 +33,12 @@ nav a {
   padding: 5px 10px;
 }
 
-/* hashtag is for id, period is for class */
-/* images called differently in HTML vs CSS */
-
-.img1 {
-  background-image: url("./assets/images/portfolio-headshot.jpg");
-}
-
 .hero {
   display: flex;
   margin: 0;
   padding: 0;
+  width: 100%;
+  z-index: 0;
 }
 
 .hero .subtitle {
@@ -56,20 +50,19 @@ nav a {
   z-index: 1;
 }
 
-.hero img {
-  width: 100%;
-  z-index: 0;
+.left {
+  width: 20%;
+  float: left;
 }
 
-main {
-}
-
-.text {
+.right {
+  width: 80%;
+  float: right;
 }
 
 .container {
-  display: flex;
-  flex-direction: row;
+  /* display: flex;
+  flex-direction: row; */
 }
 
 #about-me {
