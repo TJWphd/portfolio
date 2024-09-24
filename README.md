@@ -10,7 +10,7 @@ This deployment version (2.0) enhances this README with improved sections, descr
 
 ## usage
 
-Screenshot: ...
+Screenshot:
 Deployment Link: https://tjwphd.github.io/portfolio/
 
 ## credits and acknowledgements
